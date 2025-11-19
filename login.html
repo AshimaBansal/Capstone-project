@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Textly — Login</title>
+  <link rel="stylesheet" href="login.css">
+
+  <!-- FONTAWESOME FOR LOGO -->
+  <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- BACKGROUND -->
+  <video autoplay muted loop playsinline class="login-bg">
+    <source src="bg_vid.mp4" type="video/mp4">
+  </video>
+
+  <div class="login-container">
+
+    <!-- LEFT SIDE -->
+    <div class="login-left">
+      <h1>Welcome back!</h1>
+      <p class="subtitle">We're so excited to see you again!</p>
+
+      <label>Email or Phone Number <span>*</span></label>
+      <input type="text" class="input">
+
+      <label>Password <span>*</span></label>
+      <input type="password" class="input">
+
+      <a class="forgot" href="#">Forgot your password?</a>
+
+      <button class="login-btn">Log In</button>
+
+      <p class="register">Need an account? <a href="register.html">Register</a></p>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="login-right">
+      <img src="qr.svg" alt="QR Code" class="qr">
+
+      <h3>Log in with QR Code</h3>
+      <p class="qr-info">
+        Scan this with the <strong>Textly mobile app</strong> to log in instantly.
+      </p>
+
+      <a href="#" class="passkey">Or sign in with passkey</a>
+    </div>
+
+  </div>
+
+</body>
+</html>
